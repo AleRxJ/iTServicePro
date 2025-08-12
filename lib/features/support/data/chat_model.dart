@@ -17,7 +17,7 @@ List<ChatModel> dummyChats = [
     id: '1',
     messageTime: DateTime.now().subtract(const Duration(hours: 1)),
     isSender: true,
-    message: 'Hello, thank you for visiting iTServicePro. How can we help you? ',
+    message: '¡Hola! Bienvenido a iTServicePro, la plataforma de servicios profesionales. ¿En qué puedo ayudarte hoy?',
   ),
   ChatModel(
     id: '2',

@@ -28,10 +28,10 @@ class RatingDialog extends StatelessWidget {
             children: [
               Image.asset(AppAssets.kLogo),
               SizedBox(height: 16.h),
-              Text('Rate iTServicePro App', style: AppTypography.kBold20),
+              Text('Califica iTServicePro', style: AppTypography.kBold20),
               SizedBox(height: 10.h),
               Text(
-                'Your feedback will help us to make improvements',
+                'Tu opinión nos ayuda a mejorar la experiencia para todos',
                 style: AppTypography.kLight14,
                 textAlign: TextAlign.center,
               ),

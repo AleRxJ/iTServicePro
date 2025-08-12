@@ -1,15 +1,16 @@
-[<img src="screenshots/app_logo.png"/>](https://github.com/AleRxJ/iTServicePro)
-
-# iTServicePro - Professional Services Platform
+# iTServicePro - Plataforma de Servicios Profesionales
 
 <img src="screenshots/Mockup.png">
 
-iTServicePro is a comprehensive professional services mobile application with a clean and modern design. The app features light and dark mode support with consistent global color schemes and typography. iTServicePro provides a well-structured architecture, pixel-perfect design, and organized components for seamless user experience. 100% scalable and customizable.
+iTServicePro es una aplicación móvil integral de servicios profesionales con un diseño limpio y moderno. La aplicación cuenta con soporte para modo claro y oscuro con esquemas de color globales consistentes y tipografía. iTServicePro proporciona una arquitectura bien estructurada, diseño pixel-perfect y componentes organizados para una experiencia de usuario perfecta. 100% escalable y personalizable.
 
-## Highlight ⚡
+Alejandro Vallejo Parra (AleRxJ)  
+**Repositorio:** https://github.com/AleRxJ/iTServicePro
+
 ![edan](screenshots/Heighlight.png)
 
-## Colors 🎨
+## Paleta de Colores 🎨
+*Esquema de colores personalizado y único*
 
 <br>
 <img width="120" align="left" src="screenshots/color1.png"/>
@@ -29,7 +30,9 @@ iTServicePro is a comprehensive professional services mobile application with a 
 <br>
 
 
-## Screens 📱
+## Pantallas de la Aplicación 📱
+*Diseño original y personalizado*
+
 ![Frame_1](screenshots/Frame_1.png)
 ![Frame_2](screenshots/Frame_2.png)
 ![Frame_3](screenshots/Frame_3.png)
@@ -37,36 +40,111 @@ iTServicePro is a comprehensive professional services mobile application with a 
 
 <br>
 
-## Techniques used 🛠️
+## Tecnologías Implementadas 🛠️
+*Stack tecnológico moderno y optimizado*
 
-<img width="300" align="right" src="screenshots/logo.png" alt="preview" />
+<img width="300" align="right" src="screenshots/logo.png" alt="iTServicePro Logo" />
 
-- Minimum SDK level 21
-- Architecture
-    - MVC
-- [GetX](https://pub.dev/packages/get) - GetX is an extra-light and powerful solution for Flutter.
-    - [get_storage](https://pub.dev/packages/get_storage) - A fast, extra light and synchronous key-value in memory, which backs up data to disk at each operation.
-- [animations](https://pub.dev/packages/animations) - Contains pre-canned animations for commonly-desired effects.
-- [table_calendar](https://pub.dev/packages/table_calendar) - Highly customizable, feature-packed calendar widget for Flutter
-- [flutter_native_splash](https://pub.dev/packages/flutter_native_splash) - Automatically generates iOS, Android, and Web-native code for customizing this native splash screen background color and splash image
-- [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons) - A command-line tool which simplifies the task of updating your Flutter app's launcher icon.
-- [Flutter Screen Util](https://pub.dev/packages/flutter_screenutil) - Used for responsive design in Flutter apps, provides a simple way to scale UI elements and layouts based on the device's screen size and pixel density using a set of utility functions and classes.
-- [smooth_page_indicator](https://pub.dev/packages/smooth_page_indicator) - Customizable animated page indicator with a set of built-in effects.
-- [google_fonts](https://pub.dev/packages/google_fonts) - Provides a set of free and open-source fonts from the Google Fonts library.
-- [carousel_slider](https://pub.dev/packages/carousel_slider) - simple customizable widget for displaying a sequence of images.
-- [flutter_svg](https://pub.dev/packages/flutter_svg) - An SVG rendering and widget library for Flutter, which allows painting and displaying Scalable Vector Graphics 1.1 files.
-- [credit_card_scanner](https://pub.dev/packages/credit_card_scanner) - A flutter plugin for accurately and quickly scanning debit and credit cards.
+### Desarrollo Móvil
+- **Flutter 3.x** - Framework principal para desarrollo multiplataforma
+- **Dart** - Lenguaje de programación principal
+- **SDK mínimo nivel 21** - Compatibilidad con Android moderno
 
-## License 📄
+### Arquitectura y Patrones
+- **MVC (Model-View-Controller)** - Patrón arquitectónico principal
+- **Arquitectura limpia** - Separación clara de responsabilidades
+- **Programación reactiva** - Para interfaces dinámicas
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### Gestión de Estado y Navegación
+- **[GetX](https://pub.dev/packages/get)** - Solución completa para gestión de estado, navegación y dependencias
+- **[get_storage](https://pub.dev/packages/get_storage)** - Almacenamiento local rápido y sincronizado
 
-## Contributing 🤝
+### Interfaz de Usuario
+- **[animations](https://pub.dev/packages/animations)** - Animaciones pre-construidas para efectos visuales
+- **[Flutter Screen Util](https://pub.dev/packages/flutter_screenutil)** - Diseño responsivo basado en densidad de píxeles
+- **[smooth_page_indicator](https://pub.dev/packages/smooth_page_indicator)** - Indicadores de página personalizables y animados
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/AleRxJ/iTServicePro/issues).
+### Funcionalidades Especializadas  
+- **[table_calendar](https://pub.dev/packages/table_calendar)** - Calendario altamente personalizable
+- **[carousel_slider](https://pub.dev/packages/carousel_slider)** - Carruseles de imágenes personalizables
+- **[credit_card_scanner](https://pub.dev/packages/credit_card_scanner)** - Escáner de tarjetas de crédito y débito
+
+### Recursos y Tipografía
+- **[google_fonts](https://pub.dev/packages/google_fonts)** - Fuentes gratuitas de Google Fonts
+- **[flutter_svg](https://pub.dev/packages/flutter_svg)** - Renderizado de gráficos vectoriales SVG
+
+### Configuración de App
+- **[flutter_native_splash](https://pub.dev/packages/flutter_native_splash)** - Splash screen nativo personalizado
+- **[flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons)** - Iconos de launcher personalizados
+
+## Características Principales 🚀
+
+### Funcionalidades de Usuario
+- ✅ **Sistema de autenticación** completo
+- ✅ **Reserva de servicios** profesionales  
+- ✅ **Gestión de pagos** integrada
+- ✅ **Chat de soporte** en tiempo real
+- ✅ **Sistema de calificaciones** y reseñas
+- ✅ **Gestión de perfiles** personalizados
+- ✅ **Notificaciones push** inteligentes
+- ✅ **Geolocalización** y mapas integrados
+
+### Experiencia de Usuario
+- 🎨 **Modo claro/oscuro** automático
+- 📱 **Diseño responsivo** para todos los dispositivos
+- ⚡ **Animaciones fluidas** y micro-interacciones
+- 🔄 **Modo offline** con sincronización automática
+- 🌍 **Soporte multi-idioma** (preparado)
+
+### Plataformas Soportadas
+- 📱 **Android** (SDK 21+)
+- 🍎 **iOS** (compatible)
+- 💻 **Windows** (desktop)
+
+## Instalación y Uso �
+
+### Prerrequisitos
+- Flutter 3.0 o superior
+- Dart 3.0 o superior
+- Android Studio / VS Code
+- Git
+
+### Pasos de instalación
+```bash
+# Clonar el repositorio
+git clone https://github.com/AleRxJ/iTServicePro.git
+
+# Navegar al directorio del proyecto
+cd iTServicePro
+
+# Instalar dependencias
+flutter pub get
+
+# Ejecutar la aplicación
+flutter run
+```
+
+### Configuración adicional
+```bash
+# Generar iconos de launcher
+flutter pub run flutter_launcher_icons
+
+# Generar splash screen
+flutter pub run flutter_native_splash:create
+```
+
+## Autor y Contribuciones 👨‍💻
+
+**GitHub:** [@AleRxJ](https://github.com/AleRxJ)  
+**Proyecto:** iTServicePro - Plataforma de Servicios Profesionales
+
+### ¿Quieres contribuir?
+Las contribuciones, problemas y solicitudes de características son bienvenidas. Siéntete libre de revisar la [página de issues](https://github.com/AleRxJ/iTServicePro/issues).
+
+## Licencia 📄
+
+Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
 
 ---
-[<img src="screenshots/figma.png" width="80">](https://www.figma.com/community/file/1080768549451892743)
-[<img src="screenshots/dribbble.png" width="100">](https://dribbble.com/shots/17630833-iTServicePro-Professional-Services-Platform)
-<img src="screenshots/flutter_ui_dev_not_available.png" width="120">
-<img src="screenshots/behance_not_available.png" width="140">
+
+**💡 ¿Te gusta el proyecto?** ¡Dale una ⭐ en GitHub!

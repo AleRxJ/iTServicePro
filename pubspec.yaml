@@ -1,8 +1,9 @@
 name: itservicepro
-description: A modern Flutter application with elegant UI design and comprehensive functionality. Built with clean architecture, responsive design, and smooth user experience across multiple platforms.
+description: Aplicación móvil Flutter profesional para servicios domésticos y empresariales. arquitectura limpia, diseño responsivo y experiencia de usuario excepcional.
 repository: https://github.com/AleRxJ/iTServicePro
 authors:
-  - tu-nombre
+  - Alejandro Vallejo Parra
+homepage: https://github.com/AleRxJ/iTServicePro
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
