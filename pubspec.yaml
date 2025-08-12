@@ -1,0 +1,63 @@
+name: itservicepro
+description: A modern Flutter application with elegant UI design and comprehensive functionality. Built with clean architecture, responsive design, and smooth user experience across multiple platforms.
+repository: https://github.com/AleRxJ/iTServicePro
+authors:
+  - tu-nombre
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get:
+  flutter_svg:
+  google_fonts:
+  smooth_page_indicator:
+  # flutter_native_splash: # Temporarily disabled
+  table_calendar:
+  intl:
+  carousel_slider:
+  # credit_card_scanner: # Temporarily disabled due to compatibility issues
+  animations:
+  # get_storage: # Temporarily disabled
+  flutter_screenutil:
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons:
+
+dependency_overrides:
+  win32: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+
+flutter_native_splash:
+  image: assets/images/logo_white.png
+  color: "6759FF"
+  fullscreen: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/app_icon.png"
